@@ -47,9 +47,9 @@ Choose **Bulwark** for crowd control, **Gunner** for sustained damage, **Interce
 
 ## Installation and settings
 
-Install with **Thunderstore Mod Manager or r2modman**, with dependencies enabled. Everyone in multiplayer needs the same version.
+Requires **BepInExPack, RoR2BepInExPack, HookGenPatcher, Risk of Options**, and **R2API Core, ContentManagement, Prefab, Language, RecalculateStats and Networking**. Install these first; any Risk of Rain 2 mod manager can install them.
 
-Requires **BepInExPack, RoR2BepInExPack, HookGenPatcher, Risk of Options**, and **R2API Core, ContentManagement, Prefab, Language, RecalculateStats and Networking**. Install these first when importing a ZIP manually.
+Then download `IvoryBastion-x.y.z.zip` from the [latest release](https://github.com/Kuriyukihime/IvoryBastion/releases/latest) and import it in your mod manager (in r2modman: Settings → Import local mod), or copy its `BepInEx` folder into your Risk of Rain 2 folder. Everyone in multiplayer needs the same version. To hear about new versions, click **Watch → Custom → Releases** on the GitHub page.
 
 Open **Settings → Mod Options → Ivory Bastion** for controls, HUD, local audio and host balance settings. Gameplay settings apply next run; audio, HUD and controls update immediately. The master audio switch also mutes other players' Ivory Bastion sounds locally.
 
