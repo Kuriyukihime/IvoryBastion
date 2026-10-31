@@ -1,0 +1,12 @@
+{
+  "input_source": "expressive_laugh_takes/laugh_203.wav",
+  "input_sha256": "ae206c32448ebedb2912ed2f8040e0b79994c1a965c765a27c1f8f5c1e741971",
+  "output_sha256": "294947ff49248abb8626467a14331bc6a5a617a8855a003c64653b802c276d07",
+  "semitones": 4.0,
+  "pitch_ratio": 1.2599210498948732,
+  "method": "Praat pitch-tier multiplication and PSOLA resynthesis; unchanged duration and formants",
+  "seconds": 5.68,
+  "samples": 136320,
+  "fixed_gain": 0.9998619240248526,
+  "praat_parselmouth_version": "0.4.6"
+}

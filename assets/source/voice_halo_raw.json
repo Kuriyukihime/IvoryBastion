@@ -1,0 +1,19 @@
+{
+  "text": "Halo Lance online. Erase the opposition.",
+  "prompt": "An adult woman with a clear smooth mezzo-soprano speaking voice, warm natural human resonance, a slightly smoky lower register, crisp precise American English and a sly confident smile. She portrays a highly advanced feminine artificial intelligence in a sleek combat fortress. An expressive human actress, articulate and controlled, with real breath and nuanced pitch. Clean close studio microphone, no background music, no sound effects, no robot filter. Deliver a grand, forceful weapon announcement with cool absolute confidence. Emphasize HALO LANCE, then firmly command ERASE THE OPPOSITION. Stay clear and articulate in the same poised female AI character voice.",
+  "seed": 832,
+  "settings": {
+    "non_streaming_mode": true,
+    "max_new_tokens": 170,
+    "temperature": 0.78,
+    "top_p": 0.95,
+    "repetition_penalty": 1.04
+  },
+  "rate": 24000,
+  "seconds": 4.0,
+  "engine": "Qwen3-TTS VoiceDesign",
+  "model": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+  "revision": "5ecdb67327fd37bb2e042aab12ff7391903235d3",
+  "license": "Apache-2.0",
+  "reference_recording": null
+}

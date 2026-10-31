@@ -1,0 +1,9 @@
+# Validated with Python 3.11 on Windows.
+numpy==2.4.6
+Pillow==12.3.0
+scipy==1.17.1
+trimesh==5.1.1
+pyrender==0.1.45
+pymeshlab==2025.7.post1
+xatlas==0.0.11
+numba==0.68.0

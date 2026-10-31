@@ -1,0 +1,13 @@
+bin/
+obj/
+.build/
+__pycache__/
+.boost/
+.serena/
+.vs/
+dist/
+# Working notes stay local.
+AGENTS.md
+docs/
+# Saved third-party pages embed the site's own API tokens; downloads.json records the sources.
+*_license_source.html

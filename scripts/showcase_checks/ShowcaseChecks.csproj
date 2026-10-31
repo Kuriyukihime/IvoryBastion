@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <NoWarn>$(NoWarn);CS0649</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Stubs.cs" />
+    <Compile Include="../../src/BastionDisplayShowcase.cs" Link="BastionDisplayShowcase.cs" />
+    <Compile Include="../../src/BastionDisplayRules.cs" Link="BastionDisplayRules.cs" />
+    <Compile Include="../../src/BastionAudio.cs" Link="BastionAudio.cs" />
+    <Compile Include="../../src/BastionPcm.cs" Link="BastionPcm.cs" />
+    <Compile Include="../../src/BastionAudioSession.cs" Link="BastionAudioSession.cs" />
+    <Compile Include="../../src/BastionDialogueGate.cs" Link="BastionDialogueGate.cs" />
+    <EmbeddedResource Include="../../assets/sfx_transform_deploy.wav" LogicalName="IvoryBastion.assets.sfx_transform_deploy.wav" />
+    <EmbeddedResource Include="../../assets/sfx_transform_pack.wav" LogicalName="IvoryBastion.assets.sfx_transform_pack.wav" />
+    <EmbeddedResource Include="../../assets/sfx_transform_deploy_game.wav" LogicalName="IvoryBastion.assets.sfx_transform_deploy_game.wav" />
+    <EmbeddedResource Include="../../assets/sfx_transform_pack_game.wav" LogicalName="IvoryBastion.assets.sfx_transform_pack_game.wav" />
+    <EmbeddedResource Include="../../assets/sfx_mine_deploy.wav" LogicalName="IvoryBastion.assets.sfx_mine_deploy.wav" />
+  </ItemGroup>
+</Project>

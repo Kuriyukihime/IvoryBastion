@@ -1,0 +1,148 @@
+{
+  "pistol": {
+    "seconds": 0.16,
+    "peak": 0.3592298368870072,
+    "rms": 0.06791088683148003
+  },
+  "laser": {
+    "seconds": 0.65,
+    "peak": 0.7988564128012484,
+    "rms": 0.1450359765997341
+  },
+  "missile": {
+    "seconds": 0.38,
+    "peak": 0.5,
+    "rms": 0.08395054529800794,
+    "design": "mechanical launch / layered ion detonation"
+  },
+  "heavy": {
+    "seconds": 0.65,
+    "peak": 0.7,
+    "rms": 0.10291541957799352,
+    "design": "mechanical launch / layered ion detonation"
+  },
+  "impact": {
+    "seconds": 0.5799791666666667,
+    "peak": 0.66,
+    "rms": 0.08722271572020904,
+    "design": "mechanical launch / layered ion detonation"
+  },
+  "explosion": {
+    "seconds": 1.25,
+    "peak": 0.88,
+    "rms": 0.10782878438029328,
+    "design": "mechanical launch / layered ion detonation"
+  },
+  "protocol": {
+    "seconds": 6,
+    "peak": 0.519451935723072,
+    "rms": 0.06412297578377747
+  },
+  "dash": {
+    "seconds": 0.4,
+    "peak": 0.6494870903996592,
+    "rms": 0.10138897070209288
+  },
+  "transform": {
+    "seconds": 0.8,
+    "peak": 0.7193925343366929,
+    "rms": 0.12587777635124447
+  },
+  "blueshift": {
+    "seconds": 0.9,
+    "peak": 0.6493860636742484,
+    "rms": 0.1845335785753854
+  },
+  "barrage": {
+    "seconds": 1.1,
+    "peak": 0.7794051111244739,
+    "rms": 0.11222171767674378
+  },
+  "upgrade": {
+    "seconds": 0.75,
+    "peak": 0.4993506975205235,
+    "rms": 0.10989877951969386
+  },
+  "guardian": {
+    "seconds": 0.65,
+    "peak": 0.5993049115693603,
+    "rms": 0.10575388058286428
+  },
+  "shutdown": {
+    "seconds": 1.1,
+    "peak": 0.5995228541661681,
+    "rms": 0.08920638681404938
+  },
+  "engine": {
+    "seconds": 2,
+    "peak": 0.34886273100439236,
+    "loop": true
+  },
+  "siege_launch": {
+    "seconds": 1.1499791666666668,
+    "peak": 0.86,
+    "rms": 0.11485685922031363,
+    "design": "original layered siege rocket / pressure wave"
+  },
+  "siege_impact": {
+    "seconds": 2.4,
+    "peak": 0.86,
+    "rms": 0.09607010609832588,
+    "design": "original layered siege rocket / pressure wave"
+  },
+  "voice_mobile": {
+    "name": "mobile",
+    "seconds": 2.78025,
+    "active_seconds": 2.6455416666666665,
+    "peak": 0.8600000000000001,
+    "rms": 0.1857349755570405,
+    "sample_rate": 48000,
+    "processing": "75Hz HP, 12.5kHz LP, gentle dynamic control, subtle short reflections, no pitch shift/distortion"
+  },
+  "voice_aegis": {
+    "name": "aegis",
+    "seconds": 4.134083333333334,
+    "active_seconds": 4.014083333333334,
+    "peak": 0.86,
+    "rms": 0.1986716226055096,
+    "sample_rate": 48000,
+    "processing": "75Hz HP, 12.5kHz LP, gentle dynamic control, subtle short reflections, no pitch shift/distortion"
+  },
+  "voice_siege": {
+    "name": "siege",
+    "seconds": 3.7863333333333333,
+    "active_seconds": 3.64925,
+    "peak": 0.8600000000000001,
+    "rms": 0.18900119832207826,
+    "sample_rate": 48000,
+    "processing": "75Hz HP, 12.5kHz LP, gentle dynamic control, subtle short reflections, no pitch shift/distortion",
+    "performance_edit": {
+      "mode": "spoken_announcement",
+      "raw_source": "voice_siege_raw.wav",
+      "source_sha256": "c36439b2199ebf0f95cb1bb1edd80813a98c40e0756f9edee933f0e6677fd06e",
+      "start_seconds": 0,
+      "end_seconds": 3.84,
+      "minimum_active_seconds": 0.8,
+      "final_burst_db": 0,
+      "spoken_text": "Onslaught protocol engaged. Enjoy the fireworks."
+    }
+  },
+  "voice_heavenfall": {
+    "name": "heavenfall",
+    "seconds": 2.189375,
+    "active_seconds": 2.0455833333333335,
+    "peak": 0.86,
+    "rms": 0.19256998817821513,
+    "sample_rate": 48000,
+    "processing": "75Hz HP, 12.5kHz LP, gentle dynamic control, subtle short reflections, no pitch shift/distortion"
+  },
+  "voice_mines": {
+    "name": "mines",
+    "seconds": 2.9402916666666665,
+    "active_seconds": 2.8084583333333333,
+    "peak": 0.86,
+    "rms": 0.18603104831037265,
+    "sample_rate": 48000,
+    "processing": "75Hz HP, 12.5kHz LP, gentle dynamic control, subtle short reflections, no pitch shift/distortion"
+  }
+}

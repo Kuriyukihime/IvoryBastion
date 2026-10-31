@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType><TargetFramework>net10.0</TargetFramework><Nullable>disable</Nullable></PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../src/BastionMain.cs" Link="BastionMain.cs"/>
+    <Compile Include="../../src/BastionPilotMotion.cs" Link="BastionPilotMotion.cs"/>
+    <Reference Include="Mono.Cecil"><HintPath>$(APPDATA)/Thunderstore Mod Manager/DataFolder/RiskOfRain2/profiles/Papi and Ruby/BepInEx/core/Mono.Cecil.dll</HintPath></Reference>
+  </ItemGroup>
+</Project>

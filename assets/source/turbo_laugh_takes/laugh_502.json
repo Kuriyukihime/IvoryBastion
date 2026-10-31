@@ -1,0 +1,20 @@
+{
+  "engine": "Chatterbox Turbo",
+  "model": "ResembleAI/chatterbox-turbo",
+  "license": "MIT",
+  "seed": 502,
+  "text": "Ha-ha-ha-ha! [laugh] [laugh]",
+  "settings": {
+    "temperature": 0.85,
+    "top_p": 0.95,
+    "repetition_penalty": 1.1
+  },
+  "rate": 24000,
+  "seconds": 2.08,
+  "reference_recording": "C:\\Users\\yuiki\\source\\repos\\CrimsonBastion\\assets\\source\\voice_combat_reference.wav",
+  "reference_sha256": "2f7dd5f7d6db7b39a3b77bd47636cdf33bfb234efba6f1a866f6de29162dcad7",
+  "float_peak": 0.5232955813407898,
+  "gain_before_pcm16": 1.0,
+  "watermark": "Original Chatterbox Perth watermark retained",
+  "revision": "749d1c1a46eb10492095d68fbcf55691ccf137cd"
+}

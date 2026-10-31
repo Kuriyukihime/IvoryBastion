@@ -1,0 +1,20 @@
+{
+  "text": "Ha ha ha. Hahaha! Ha ha ha ha! Hahahaha! HA HA HA HA!",
+  "prompt": "A mature adult woman with a warm low smoky alto voice and a naturally rich chest resonance. She performs a real prolonged evil laugh, amused by her overwhelming power. Her lower feminine voice remains full and resonant through the laughter, around her natural speaking register. An expressive human performance recorded cleanly in a close studio microphone. One continuous six-second performance of rhythmic, articulated ha-ha laughter. Begin with quiet mischievous chuckles, then build into increasingly bold, open, full-chested laughter. The rhythm becomes exuberant and uncontrolled. Finish with four emphatic loud HA HA HA HA bursts. The very last HA is the loudest and most forceful laugh of the performance, with a strong upward attack. Stop decisively immediately after that final HA. The last audible sound is laughter. No spoken words, no music, no sound effects, no robot filter. Do not end with a sigh, gasp, inhale, groan, moan, satisfied chuckle or soft taper.",
+  "seed": 910,
+  "settings": {
+    "non_streaming_mode": true,
+    "max_new_tokens": 180,
+    "temperature": 0.78,
+    "top_p": 0.95,
+    "repetition_penalty": 1.04
+  },
+  "rate": 24000,
+  "seconds": 14.32,
+  "engine": "Qwen3-TTS VoiceDesign",
+  "model": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+  "revision": "5ecdb67327fd37bb2e042aab12ff7391903235d3",
+  "license": "Apache-2.0",
+  "reference_recording": null,
+  "based_on": "Original siege voice description and generation seed; new continuous take"
+}

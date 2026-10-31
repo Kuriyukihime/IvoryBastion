@@ -1,0 +1,42 @@
+{
+  "format": "BAST1",
+  "authoring": "scripts/seraph_models.py",
+  "parts": {
+    "Ceramic": {
+      "vertices": 1328,
+      "triangles": 2496
+    },
+    "Porcelain": {
+      "vertices": 720,
+      "triangles": 1344
+    },
+    "Edge": {
+      "vertices": 884,
+      "triangles": 672
+    },
+    "Frame": {
+      "vertices": 1724,
+      "triangles": 1984
+    },
+    "Joint": {
+      "vertices": 1290,
+      "triangles": 1856
+    },
+    "Glass": {
+      "vertices": 372,
+      "triangles": 512
+    },
+    "Ink": {
+      "vertices": 888,
+      "triangles": 1728
+    },
+    "Blue": {
+      "vertices": 2320,
+      "triangles": 4416
+    },
+    "Core": {
+      "vertices": 238,
+      "triangles": 320
+    }
+  }
+}

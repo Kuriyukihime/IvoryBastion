@@ -1,0 +1,40 @@
+{
+  "format": "BAST3",
+  "authoring": "scripts/seraph_hybrid.py",
+  "bones": 23,
+  "lods": [
+    {
+      "lod": 0,
+      "vertices": 214289,
+      "triangles": 323856
+    },
+    {
+      "lod": 1,
+      "vertices": 77249,
+      "triangles": 97481
+    },
+    {
+      "lod": 2,
+      "vertices": 27097,
+      "triangles": 26524
+    }
+  ],
+  "bounds": [
+    [
+      -0.490346325772278,
+      0.005,
+      -0.1709304840718571
+    ],
+    [
+      0.490346325772278,
+      1.7902964727475192,
+      0.1361320022548586
+    ]
+  ],
+  "texture": [
+    4085,
+    4096
+  ],
+  "source": "Seraph reconstruction-fitted rig with authored ceramic armor, closed mechanical undersuit and articulated engineering assemblies",
+  "shell_authoring": "scripts/seraph_premium.py"
+}

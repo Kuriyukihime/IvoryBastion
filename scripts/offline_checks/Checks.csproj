@@ -1,0 +1,103 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GameRoot Condition="'$(GameRoot)' == ''">X:\SteamLibrary\steamapps\common\Risk of Rain 2</GameRoot>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../src/BastionUpgradeTree.cs" Link="BastionUpgradeTree.cs"/>
+    <Compile Include="../../src/BastionUtilityUpgrades.cs" Link="BastionUtilityUpgrades.cs"/>
+    <Compile Include="Program.cs" />
+    <Compile Include="PerformanceChecks.cs"/><Compile Include="../../src/BastionMeshPayload.cs" Link="BastionMeshPayload.cs"/>
+    <Compile Include="DamageBudgetChecks.cs" /><Compile Include="UpgradeDamageBudgetChecks.cs"/><Compile Include="KitBalanceChecks.cs"/>
+    <Compile Include="WarheadChecks.cs" />
+    <Compile Include="../../src/BastionWarheadGeometry.cs" Link="BastionWarheadGeometry.cs" />
+    <Compile Include="../../src/BastionRules.cs" Link="BastionRules.cs" />
+    <Compile Include="../../src/BastionFlightGeometry.cs" Link="BastionFlightGeometry.cs" />
+    <Compile Include="../../src/BastionThrusterReserve.cs" Link="BastionThrusterReserve.cs" />
+    <Compile Include="../../src/BastionPcm.cs" Link="BastionPcm.cs" />
+    <Compile Include="../../src/HudPlacement.cs" Link="HudPlacement.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>$(GameRoot)\Risk of Rain 2_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <Private>true</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="../../src/BastionRepair.cs" Link="BastionRepair.cs" />
+    <Compile Include="../../src/BastionVisualRules.cs" Link="BastionVisualRules.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CombatVisualChecks.cs" />
+    <Compile Include="../../src/BastionPilotMotion.cs" Link="BastionPilotMotion.cs" />
+    <Compile Include="../../src/BastionAegisGeometry.cs" Link="BastionAegisGeometry.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="../../src/BastionExplosionGeometry.cs" Link="BastionExplosionGeometry.cs" />
+    <Compile Include="ExplosionChecks.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="../../src/BastionDefenseRules.cs" Link="BastionDefenseRules.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NativeContractChecks.cs" />
+    <Reference Include="Mono.Cecil">
+      <HintPath>$(APPDATA)/Thunderstore Mod Manager/DataFolder/RiskOfRain2/profiles/Papi and Ruby/BepInEx/core/Mono.Cecil.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="../../src/BastionShieldReserve.cs" Link="BastionShieldReserve.cs" />
+    <Compile Include="../../src/BastionShieldGeometry.cs" Link="BastionShieldGeometry.cs" />
+    <Compile Include="ShieldChecks.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="../../src/BastionAegisHexGeometry.cs" Link="BastionAegisHexGeometry.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ProductionChecks.cs" />
+    <Compile Include="../../src/BastionProductionClock.cs" Link="BastionProductionClock.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="TransformationChecks.cs" />
+    <Compile Include="../../src/BastionTransformSync.cs" Link="BastionTransformSync.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="PresentationChecks.cs" />
+    <Compile Include="../../src/BastionChoreography.cs" Link="BastionChoreography.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="LaserCameraChecks.cs" />
+    <Compile Include="NeedleChecks.cs" />
+    <Compile Include="../../src/BastionNeedleRules.cs" Link="BastionNeedleRules.cs" />
+    <Compile Include="../../src/BastionLaserRules.cs" Link="BastionLaserRules.cs" />
+    <Compile Include="../../src/BastionCameraRules.cs" Link="BastionCameraRules.cs" />
+    <Compile Include="../../src/BastionCameraHook.cs" Link="BastionCameraHook.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="MonoMod.Utils">
+      <HintPath>$(APPDATA)/Thunderstore Mod Manager/DataFolder/RiskOfRain2/profiles/Papi and Ruby/BepInEx/core/MonoMod.Utils.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="UnitRoleChecks.cs" />
+    <Compile Include="../../src/BastionUnitRules.cs" Link="BastionUnitRules.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BalanceChecks.cs" />
+    <Compile Include="../../src/BastionBalanceValues.cs" Link="BastionBalanceValues.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="../../src/BastionShieldDamageSite.cs" Link="BastionShieldDamageSite.cs" />
+    <Compile Include="../../src/BastionShieldGaugeGeometry.cs" Link="BastionShieldGaugeGeometry.cs" />
+    <Compile Include="../../src/BastionUiMesh.cs" Link="BastionUiMesh.cs" />
+    <Compile Include="SeraphShieldChecks.cs" />
+    <Compile Include="DefenseStackingChecks.cs" />
+    <Compile Include="../../src/BastionAegisReserve.cs" Link="BastionAegisReserve.cs" />
+    <Compile Include="../../src/BastionDefenseGaugeLayout.cs" Link="BastionDefenseGaugeLayout.cs" />
+    <Compile Include="../../src/BastionResourcePalette.cs" Link="BastionResourcePalette.cs" />
+  </ItemGroup>
+</Project>

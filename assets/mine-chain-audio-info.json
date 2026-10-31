@@ -1,0 +1,14 @@
+{
+  "mine_chain_prime": {
+    "seconds": 0.16,
+    "rate": 48000,
+    "peak": 0.78,
+    "rms": 0.2896979773640644
+  },
+  "mine_chain_burst": {
+    "seconds": 0.48,
+    "rate": 48000,
+    "peak": 0.78,
+    "rms": 0.15285819370265097
+  }
+}

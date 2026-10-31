@@ -1,0 +1,25 @@
+{
+  "format": "BAST1",
+  "authoring": "scripts/make_missiles.py",
+  "parts": {
+    "MissileCeramic": {
+      "vertices": 320,
+      "triangles": 480
+    },
+    "MissileFrame": {
+      "vertices": 688,
+      "triangles": 1008
+    },
+    "MissileBlue": {
+      "vertices": 624,
+      "triangles": 688
+    },
+    "MissileEdge": {
+      "vertices": 1184,
+      "triangles": 1568
+    }
+  },
+  "compact_fins": true,
+  "radial_scale": 0.8,
+  "model_scale": 1.8
+}

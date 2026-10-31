@@ -1,0 +1,22 @@
+{
+  "format": "BAST1",
+  "authoring": "scripts/seraph_models.py",
+  "parts": {
+    "Ceramic": {
+      "vertices": 704,
+      "triangles": 1280
+    },
+    "Frame": {
+      "vertices": 1280,
+      "triangles": 2304
+    },
+    "Edge": {
+      "vertices": 1352,
+      "triangles": 2432
+    },
+    "MineBlue": {
+      "vertices": 32,
+      "triangles": 32
+    }
+  }
+}

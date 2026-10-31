@@ -1,0 +1,136 @@
+[
+  {
+    "asset": "mobile",
+    "size": [
+      1500,
+      1800
+    ],
+    "yaw": 23,
+    "crop": null,
+    "path": "dist/IvoryBastion-mobile-preview.png",
+    "title": "IVORY BASTION / SERAPH - MOBILE / ACTUAL MESH"
+  },
+  {
+    "asset": "mobile",
+    "size": [
+      1200,
+      1500
+    ],
+    "yaw": 155,
+    "crop": null,
+    "path": "dist/IvoryBastion-mobile-rear.png",
+    "title": "SERAPH / REAR / ACTUAL MESH"
+  },
+  {
+    "asset": "mobile",
+    "size": [
+      1100,
+      1400
+    ],
+    "yaw": 30,
+    "crop": [
+      0.72,
+      1.65,
+      1
+    ],
+    "path": "dist/IvoryBastion-torso-detail.png",
+    "title": "SERAPH / FITTED ARMOR DETAIL"
+  },
+  {
+    "asset": "mobile",
+    "size": [
+      1024,
+      1024
+    ],
+    "yaw": 15,
+    "crop": [
+      1.005,
+      1.66,
+      1
+    ],
+    "path": "assets/portrait.png",
+    "title": null
+  },
+  {
+    "asset": "siege",
+    "size": [
+      2400,
+      1700
+    ],
+    "yaw": 40,
+    "crop": null,
+    "path": "dist/IvoryBastion-siege-preview.png",
+    "title": "IVORY BASTION / SERAPH - SIEGE / ACTUAL MESH"
+  },
+  {
+    "asset": "siege",
+    "size": [
+      2100,
+      1600
+    ],
+    "yaw": 145,
+    "crop": null,
+    "path": "dist/IvoryBastion-siege-rear.png",
+    "title": "SERAPH / SIEGE REAR / ACTUAL MESH"
+  },
+  {
+    "asset": "unit_guardian",
+    "size": [
+      700,
+      600
+    ],
+    "yaw": 24,
+    "crop": [
+      -0.55,
+      0.63,
+      1
+    ],
+    "path": "dist/IvoryBastion-unit-guardian.png",
+    "title": "SERAPH / GUARDIAN"
+  },
+  {
+    "asset": "unit_gunner",
+    "size": [
+      700,
+      600
+    ],
+    "yaw": 24,
+    "crop": [
+      -0.55,
+      0.63,
+      1
+    ],
+    "path": "dist/IvoryBastion-unit-gunner.png",
+    "title": "SERAPH / GUNNER"
+  },
+  {
+    "asset": "unit_interceptor",
+    "size": [
+      700,
+      600
+    ],
+    "yaw": 24,
+    "crop": [
+      -0.55,
+      0.63,
+      1
+    ],
+    "path": "dist/IvoryBastion-unit-interceptor.png",
+    "title": "SERAPH / INTERCEPTOR"
+  },
+  {
+    "asset": "unit_repair",
+    "size": [
+      700,
+      600
+    ],
+    "yaw": 24,
+    "crop": [
+      -0.55,
+      0.63,
+      1
+    ],
+    "path": "dist/IvoryBastion-unit-repair.png",
+    "title": "SERAPH / REPAIR"
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "format": "SOUL2",
+  "authoring": "scripts/make_model.py",
+  "parts": {
+    "Crimson": {
+      "vertices": 4820,
+      "triangles": 7680
+    },
+    "Scarlet": {
+      "vertices": 3938,
+      "triangles": 6912
+    },
+    "Ivory": {
+      "vertices": 4578,
+      "triangles": 7232
+    },
+    "Dark": {
+      "vertices": 7356,
+      "triangles": 11904
+    },
+    "Steel": {
+      "vertices": 19670,
+      "triangles": 36912
+    },
+    "Visor": {
+      "vertices": 4420,
+      "triangles": 7680
+    },
+    "Light": {
+      "vertices": 1566,
+      "triangles": 2464
+    },
+    "Amber": {
+      "vertices": 13658,
+      "triangles": 21760
+    }
+  }
+}

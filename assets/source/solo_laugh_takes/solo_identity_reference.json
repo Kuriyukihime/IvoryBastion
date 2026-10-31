@@ -1,0 +1,6 @@
+{
+  "source": "assets\\source\\solo_laugh_takes\\laugh_711.wav",
+  "sha256": "1a7876a3593088effb09a9e08b26897ee12c2c242b4d5beb941c75658041323f",
+  "description": "Voice-conditioning input only: one freshly generated fictional female voice, repeated to meet the model reference length. Never a finished output.",
+  "seconds": 7.76
+}

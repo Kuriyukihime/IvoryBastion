@@ -1,0 +1,23 @@
+{
+  "engine": "Qwen3-TTS VoiceDesign",
+  "model": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+  "revision": "5ecdb67327fd37bb2e042aab12ff7391903235d3",
+  "license": "Apache-2.0",
+  "seed": 910,
+  "text": "Ha ha ha! Hahaha! Ha ha ha ha! Hahaha!",
+  "prompt": "One mature adult woman with a clear bright mezzo-soprano voice and naturally rich chest resonance. She performs a real prolonged evil laugh, amused and delighted by her overwhelming power. Several powerful chest-voiced bursts of maniacal laughter, exuberant and uncontrolled, with a fluent natural rhythm. Her feminine voice remains full and resonant through the laughter. She is an advanced artificial intelligence thoroughly enjoying her absolute dominance in battle. Sinister delight and ecstatic glee, not anger. A solo actress performing a loud theatrical villain laugh, never a squeal or shriek. Laugh for about five seconds, keeping the same strong energy throughout and finishing with an even louder triumphant laughing burst. An expressive human-sounding performance recorded cleanly, close and dry, one female voice alone.",
+  "settings": {
+    "non_streaming_mode": true,
+    "max_new_tokens": 150,
+    "temperature": 0.78,
+    "top_p": 0.95,
+    "repetition_penalty": 1.04
+  },
+  "rate": 24000,
+  "seconds": 10.8,
+  "float_peak": 0.772627055644989,
+  "gain_before_pcm16": 1.0,
+  "reference_recording": null,
+  "generated_voice_streams": 1,
+  "added_voice_layers": 0
+}

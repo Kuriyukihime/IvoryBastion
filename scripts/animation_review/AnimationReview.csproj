@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <NoWarn>$(NoWarn);CS0649</NoWarn>
+    <GameRoot Condition="'$(GameRoot)' == ''">X:\SteamLibrary\steamapps\common\Risk of Rain 2</GameRoot>
+    <ProductionRoot Condition="'$(Baseline)' != 'true'">../..</ProductionRoot>
+    <ProductionRoot Condition="'$(Baseline)' == 'true'">../../.build/review-033-baseline</ProductionRoot>
+    <DefineConstants Condition="'$(Baseline)' == 'true'">$(DefineConstants);BASELINE</DefineConstants>
+    <OutputPath Condition="'$(Baseline)' == 'true'">bin/Baseline/</OutputPath>
+    <OutputPath Condition="'$(Baseline)' != 'true'">bin/Review/</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="$(ProductionRoot)/src/BastionChoreography.cs" Link="BastionChoreography.cs" />
+    <Compile Include="$(ProductionRoot)/src/BastionEffectGeometry.cs" Link="BastionEffectGeometry.cs" />
+    <Compile Include="$(ProductionRoot)/src/BastionExplosionGeometry.cs" Link="BastionExplosionGeometry.cs" />
+    <Compile Include="../../src/BastionDetonationPresentation.cs" Link="BastionDetonationPresentation.cs" Condition="'$(Baseline)' != 'true'" />
+    <Reference Include="UnityEngine.CoreModule"><HintPath>$(GameRoot)/Risk of Rain 2_Data/Managed/UnityEngine.CoreModule.dll</HintPath><Private>true</Private></Reference>
+  </ItemGroup>
+</Project>

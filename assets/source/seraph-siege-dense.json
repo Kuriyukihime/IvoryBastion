@@ -1,0 +1,25 @@
+{
+  "vertices": 1046848,
+  "triangles": 2093460,
+  "bounds": [
+    [
+      -0.8662950396537781,
+      -0.5700397491455078,
+      -1.0099999904632568
+    ],
+    [
+      0.8629004955291748,
+      0.5607838034629822,
+      0.9952830672264099
+    ]
+  ],
+  "engine": "Hunyuan3D-2mv",
+  "resolution": 512,
+  "steps": 40,
+  "seed": 3117,
+  "source_images": [
+    "seraph-siege-front.png",
+    "seraph-siege-back.png",
+    "seraph-siege-left.png"
+  ]
+}

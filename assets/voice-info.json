@@ -1,0 +1,57 @@
+[
+  {
+    "name": "mobile",
+    "seconds": 2.78025,
+    "active_seconds": 2.6455416666666665,
+    "peak": 0.8600000000000001,
+    "rms": 0.1857349755570405,
+    "sample_rate": 48000,
+    "processing": "75Hz HP, 12.5kHz LP, gentle dynamic control, subtle short reflections, no pitch shift/distortion"
+  },
+  {
+    "name": "aegis",
+    "seconds": 4.134083333333334,
+    "active_seconds": 4.014083333333334,
+    "peak": 0.86,
+    "rms": 0.1986716226055096,
+    "sample_rate": 48000,
+    "processing": "75Hz HP, 12.5kHz LP, gentle dynamic control, subtle short reflections, no pitch shift/distortion"
+  },
+  {
+    "name": "siege",
+    "seconds": 3.7863333333333333,
+    "active_seconds": 3.64925,
+    "peak": 0.8600000000000001,
+    "rms": 0.18900119832207826,
+    "sample_rate": 48000,
+    "processing": "75Hz HP, 12.5kHz LP, gentle dynamic control, subtle short reflections, no pitch shift/distortion",
+    "performance_edit": {
+      "mode": "spoken_announcement",
+      "raw_source": "voice_siege_raw.wav",
+      "source_sha256": "c36439b2199ebf0f95cb1bb1edd80813a98c40e0756f9edee933f0e6677fd06e",
+      "start_seconds": 0,
+      "end_seconds": 3.84,
+      "minimum_active_seconds": 0.8,
+      "final_burst_db": 0,
+      "spoken_text": "Onslaught protocol engaged. Enjoy the fireworks."
+    }
+  },
+  {
+    "name": "heavenfall",
+    "seconds": 2.189375,
+    "active_seconds": 2.0455833333333335,
+    "peak": 0.86,
+    "rms": 0.19256998817821513,
+    "sample_rate": 48000,
+    "processing": "75Hz HP, 12.5kHz LP, gentle dynamic control, subtle short reflections, no pitch shift/distortion"
+  },
+  {
+    "name": "mines",
+    "seconds": 2.9402916666666665,
+    "active_seconds": 2.8084583333333333,
+    "peak": 0.86,
+    "rms": 0.18603104831037265,
+    "sample_rate": 48000,
+    "processing": "75Hz HP, 12.5kHz LP, gentle dynamic control, subtle short reflections, no pitch shift/distortion"
+  }
+]

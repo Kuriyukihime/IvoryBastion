@@ -1,0 +1,211 @@
+{
+  "provenance": "Original procedural mechanical Foley and capacitor-pressure synthesis; no recorded samples, voices, downloaded models or third-party assets.",
+  "generator": "scripts/make_mine_audio.py",
+  "seed": 783118,
+  "overcharge_assets_unchanged_sha256": {
+    "assets\\sfx_mine_chain_burst.wav": "bae79b7cf9066a663960d12a9871b40cf3402bc70e9acbc95182d33a5cb8f3d6",
+    "assets\\sfx_mine_chain_prime.wav": "dcf7aa9b6cca4a467b970d4eec4960ae19b0d3106f4e6252df73608cedf4fc7b"
+  },
+  "accepted_assets_unchanged_sha256": {
+    "assets\\sfx_barrage.wav": "45adb64766c75d60be5b34383a1189f0a075dc2339c99509d04cfa5006cb493a",
+    "assets\\sfx_blueshift.wav": "98d6dcdac00eb834f4069f0ceeb1cb863d458069abd48eb54d5085c745779079",
+    "assets\\sfx_dash.wav": "428c535378d4c76684d87e85830543fd248f7a3100f27320c65a4cfbc0188541",
+    "assets\\sfx_engine.wav": "fb5b1295131fbdd120d58f8e91ffa74fed8b1e97a7c291411c0373c5ff9413ad",
+    "assets\\sfx_explosion.wav": "365ca8a96384742a6c341ed0e80da18e88713c9149a79f69c96384802c1dfcb2",
+    "assets\\sfx_guardian.wav": "890606f06c79ec6b12baeb40f6a3a8925dc606d68a8f71eb9f1748341f45fdde",
+    "assets\\sfx_heavy.wav": "f55f9fb8d9d4b67948cb2a3f299b4e10ed521afb6b614f2a6115a34363df3618",
+    "assets\\sfx_impact.wav": "e1a2a03fe20948e5505607b412bfbffa8cc6df7e5236c144b527dfcaeaa7450d",
+    "assets\\sfx_laser.wav": "83ce35e1292f67ddce5fa94587510150d74778f2cc51a9432795bcb49ace6295",
+    "assets\\sfx_mine_arm.wav": "d1db7e9cc16cd8cf5d1ea97b2dfbff39d265f286dc5fab32d592342a825d2923",
+    "assets\\sfx_mine_blast.wav": "eb70c2be152addb5ad1af244185e3eb1f209ca1eece6ef2845879140615abc90",
+    "assets\\sfx_mine_chain_burst.wav": "bae79b7cf9066a663960d12a9871b40cf3402bc70e9acbc95182d33a5cb8f3d6",
+    "assets\\sfx_mine_chain_prime.wav": "dcf7aa9b6cca4a467b970d4eec4960ae19b0d3106f4e6252df73608cedf4fc7b",
+    "assets\\sfx_missile.wav": "c81c4b4e5ee9263ebd11e0e4a0c13b43e1ba2e2ce7abc512655b48cda18e06ed",
+    "assets\\sfx_pistol.wav": "be782f43fb801ff7e4c2500f270e3a753f6d995cb256836239b06e3704986e22",
+    "assets\\sfx_protocol.wav": "5af50e4fd2c4a99fca1c1988862037c3cb7b5acb18cc60567dd09ed3685c76db",
+    "assets\\sfx_shieldbreak.wav": "449eb89a2b99d8ea9aa14c86c38f3971f0f15a7b3559390c0dbeb2128c3c4415",
+    "assets\\sfx_shieldrecharge.wav": "e16247ea0b310ab947ec34a1e6c68e8869661fa558c01bd707566d78b8a7d2c1",
+    "assets\\sfx_shutdown.wav": "162124a4168ba0043f1fd966dd1a9857f7710389a075e3f42efa7c1a7d20083f",
+    "assets\\sfx_siege_impact.wav": "a528c7a17697a346acfa6e771c200100f9ec2a4759bef30586ce3759f66e02f3",
+    "assets\\sfx_siege_launch.wav": "9fb0d3d7c94384c9d8598ef8f566c64432dbaf36e71949ec044390564e7f1649",
+    "assets\\sfx_transform.wav": "44fb0144d311a1862f7ce5d6a3aa21fe73a81f700d6f46577bc8f5ef3c110d4d",
+    "assets\\sfx_transform_deploy.wav": "7bc6c44d5505a420125ea83b97ef5e869cfde81b17cac44287280b7aa344a4b8",
+    "assets\\sfx_transform_deploy_game.wav": "ba7358094065c303824b3dfb42c2c06a67a46c42b911bf746f67bc3635d90854",
+    "assets\\sfx_transform_pack.wav": "3de0210324cf2e3277cc29156d02ca3dec10463eae2a47fd5c2c218f2ff02849",
+    "assets\\sfx_transform_pack_game.wav": "f640dd37f4efaf371b489e932aadf544d9527ae2956613dac61793cae112106f",
+    "assets\\sfx_upgrade.wav": "d6ea0e6a82ba60fa53bd643ce49475c2fae21987708c5c0222679410df7449e1",
+    "assets\\sfx_voice_aegis.wav": "3faf9295b0e4a408f1c95fed1784746056de86f2b85f6f409c2483f3d5fbcbb7",
+    "assets\\sfx_voice_heavenfall.wav": "e288c98065ec20cb7c7144204e98a527ae38b3a7bb29ebe4f74dba771f6d6fcb",
+    "assets\\sfx_voice_mines.wav": "3e089ae7abf66fdb78fcefe79f70845fff83d9936ee719a02fca5ae61f8011b5",
+    "assets\\sfx_voice_mobile.wav": "986424cac2f386059cf42b852bee1ff9bb5ffd8b85c9db743c9a8a1e9075ab7d",
+    "assets\\sfx_voice_siege.wav": "57df7db51e9f8890446708f74d277c959580f73183b72c48f33e6f3cf54aea62",
+    "assets\\sfx_wingburst_start.wav": "bb0c7515ba5cbd69617e909a99a989d1d7392d9cc8c848236e6c45f347a43e0b"
+  },
+  "assets": [
+    {
+      "file": "assets\\sfx_mine_arm.wav",
+      "seconds": 0.31,
+      "rate": 48000,
+      "channels": 1,
+      "encoding": "PCM signed 16-bit little-endian",
+      "peak": 0.639984130859375,
+      "peak_dbfs": -3.8766158942488604,
+      "rms": 0.09159912287927488,
+      "dc_offset": 6.357828776041667e-08,
+      "clipped_samples": 0,
+      "first_sample": 0,
+      "last_sample": 0,
+      "rms_25ms": [
+        0.159065003358515,
+        0.08563678545997468,
+        0.08047143659018019,
+        0.08445279919658756,
+        0.08695799738808503,
+        0.08417057350773814,
+        0.08927512805613684,
+        0.08520182738135436,
+        0.0946837475473108,
+        0.11487506859304197,
+        0.04850893915417812,
+        0.007165248494582532
+      ],
+      "events": [
+        {
+          "at": 0,
+          "until": 0.055,
+          "layer": "dry release catch"
+        },
+        {
+          "at": 0.025,
+          "until": 0.249,
+          "layer": "loaded winding motor and capacitor air"
+        },
+        {
+          "at": 0.242,
+          "until": 0.31,
+          "layer": "grounded locking latch"
+        }
+      ]
+    },
+    {
+      "file": "assets\\sfx_mine_blast.wav",
+      "seconds": 0.59,
+      "rate": 48000,
+      "channels": 1,
+      "encoding": "PCM signed 16-bit little-endian",
+      "peak": 0.739990234375,
+      "peak_dbfs": -2.6154802320030415,
+      "rms": 0.10295079981376368,
+      "dc_offset": -8.620784781073447e-09,
+      "clipped_samples": 0,
+      "first_sample": 0,
+      "last_sample": 0,
+      "rms_25ms": [
+        0.31263746615850435,
+        0.2176562430261542,
+        0.20220394193018834,
+        0.16526545194885117,
+        0.1297617259507491,
+        0.10484598038876826,
+        0.07879304149944792,
+        0.049587383339544426,
+        0.044466544381913636,
+        0.02866998170106092,
+        0.028552110398994853,
+        0.019007111028853177,
+        0.015532167788542177,
+        0.011799984059115247,
+        0.008978076319055709,
+        0.006816259213704547,
+        0.0052534642453339365,
+        0.004798042103573275,
+        0.0034610438973965677,
+        0.0021491504699943033,
+        0.0020502856489330768,
+        0.0016609688136634214,
+        0.0012346457453723623,
+        0.0005017492172858341
+      ],
+      "events": [
+        {
+          "at": 0,
+          "until": 0.055,
+          "layer": "mechanical housing crack"
+        },
+        {
+          "at": 0,
+          "until": 0.36,
+          "layer": "deep capacitor-pressure thump"
+        },
+        {
+          "at": 0.015,
+          "until": 0.59,
+          "layer": "short electrical air and debris decay"
+        }
+      ]
+    },
+    {
+      "file": "assets\\sfx_mine_deploy.wav",
+      "seconds": 0.76,
+      "rate": 48000,
+      "channels": 1,
+      "encoding": "PCM signed 16-bit little-endian",
+      "peak": 0.6199951171875,
+      "peak_dbfs": -4.152234616063158,
+      "rms": 0.11718146185612754,
+      "dc_offset": 9.202120596902413e-09,
+      "clipped_samples": 0,
+      "first_sample": 0,
+      "last_sample": 0,
+      "rms_25ms": [
+        0.1087380983606578,
+        0.13028682849978712,
+        0.14559930679552324,
+        0.15142624715888006,
+        0.18494555227405296,
+        0.14725814263804582,
+        0.15613797316039488,
+        0.08173789325968463,
+        0.13519976160031985,
+        0.08058100518486326,
+        0.1448983924880009,
+        0.09881538473235095,
+        0.13454787802064885,
+        0.11589790965053984,
+        0.10621059354874113,
+        0.09700758623510605,
+        0.1057688692959324,
+        0.12599390278674508,
+        0.10409858832052248,
+        0.129114144298688,
+        0.10021346433703268,
+        0.1335092374074344,
+        0.09437283219810572,
+        0.1245413579407886,
+        0.07065030743409631,
+        0.11459409803619393,
+        0.12078641413700036,
+        0.061980737647452405,
+        0.02981143980280155,
+        0.0035454538597294713
+      ],
+      "events": [
+        {
+          "at": 0,
+          "until": 0.17,
+          "layer": "compact launch-well actuator"
+        },
+        {
+          "at": 0.105,
+          "until": 0.73,
+          "layer": "twelve alternating salvo ratchets and air ejections"
+        },
+        {
+          "at": 0.657,
+          "until": 0.76,
+          "layer": "dry well-catch settling and clean decay"
+        }
+      ]
+    }
+  ]
+}

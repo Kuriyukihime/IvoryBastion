@@ -1,0 +1,20 @@
+{
+  "engine": "Chatterbox",
+  "model": "ResembleAI/chatterbox",
+  "license": "MIT",
+  "seed": 203,
+  "text": "Ha ha ha ha ha ha ha ha ha ha ha ha ha ha!",
+  "settings": {
+    "exaggeration": 0.8,
+    "cfg_weight": 0.3,
+    "temperature": 0.8,
+    "repetition_penalty": 1.2
+  },
+  "rate": 24000,
+  "seconds": 5.68,
+  "reference_recording": "voice_siege_raw.wav (original fictional AI-generated character voice)",
+  "reference_sha256": "bc8276186f7be31f755bdcfa19a7bd960aae9b3428ee7ce097e39453c0f9ca63",
+  "watermark": "Original Chatterbox Perth watermark retained",
+  "float_peak": 1.059963345527649,
+  "gain_before_pcm16": 0.8773888304005897
+}

@@ -1,0 +1,10 @@
+{
+  "mode": "spoken_announcement",
+  "raw_source": "voice_siege_raw.wav",
+  "source_sha256": "c36439b2199ebf0f95cb1bb1edd80813a98c40e0756f9edee933f0e6677fd06e",
+  "start_seconds": 0,
+  "end_seconds": 3.84,
+  "minimum_active_seconds": 0.8,
+  "final_burst_db": 0,
+  "spoken_text": "Onslaught protocol engaged. Enjoy the fireworks."
+}

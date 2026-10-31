@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType><TargetFramework>net10.0</TargetFramework><EnableDefaultCompileItems>false</EnableDefaultCompileItems><Nullable>disable</Nullable></PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Stubs.cs"/><Compile Include="RuntimeChecks.cs"/><Compile Include="NativeChecks.cs"/>
+    <Compile Include="../../src/BastionRequestTransport.cs" Link="BastionRequestTransport.cs"/>
+    <Compile Include="../../src/BastionRequests.cs" Link="BastionRequests.cs"/>
+    <Compile Include="../../src/BastionUtilityRules.cs" Link="BastionUtilityRules.cs"/>
+    <Compile Include="../../src/BastionMessages.cs" Link="BastionMessages.cs"/>
+    <Compile Include="../../src/BastionTransformSync.cs" Link="BastionTransformSync.cs"/>
+    <Compile Include="../../src/BastionBalanceValues.cs" Link="BastionBalanceValues.cs"/>
+    <Compile Include="../../src/BastionBalanceRuntime.cs" Link="BastionBalanceRuntime.cs"/>
+    <Compile Include="BalanceSyncChecks.cs"/>
+    <Compile Include="../../src/BastionAegisReserve.cs" Link="BastionAegisReserve.cs"/>
+    <Compile Include="../../src/BastionShieldReserve.cs" Link="BastionShieldReserve.cs"/>
+    <Reference Include="Mono.Cecil"><HintPath>$(APPDATA)/Thunderstore Mod Manager/DataFolder/RiskOfRain2/profiles/Papi and Ruby/BepInEx/core/Mono.Cecil.dll</HintPath></Reference>
+  </ItemGroup>
+</Project>

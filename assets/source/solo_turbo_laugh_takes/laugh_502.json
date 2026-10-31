@@ -1,0 +1,20 @@
+{
+  "engine": "Chatterbox Turbo",
+  "model": "ResembleAI/chatterbox-turbo",
+  "license": "MIT",
+  "seed": 502,
+  "text": "Ha-ha-ha-ha! [laugh] [laugh]",
+  "settings": {
+    "temperature": 0.85,
+    "top_p": 0.95,
+    "repetition_penalty": 1.1
+  },
+  "rate": 24000,
+  "seconds": 2.6,
+  "reference_recording": "assets\\source\\solo_laugh_takes\\solo_identity_reference.wav",
+  "reference_sha256": "a6104ffc586bf3e5401948539286f4226470d161b76fbb326a3940e7b2ff0487",
+  "float_peak": 0.2593008875846863,
+  "gain_before_pcm16": 1.0,
+  "watermark": "Original Chatterbox Perth watermark retained",
+  "revision": "749d1c1a46eb10492095d68fbcf55691ccf137cd"
+}

@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType><TargetFramework>net10.0</TargetFramework><EnableDefaultCompileItems>false</EnableDefaultCompileItems><NoWarn>$(NoWarn);CS0649</NoWarn></PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs"/><Compile Include="Stubs.cs"/>
+    <Compile Include="../../src/BastionSpiderVisual.cs" Link="BastionSpiderVisual.cs"/>
+    <Compile Include="../../src/BastionMineTargetMark.cs" Link="BastionMineTargetMark.cs"/>
+    <Compile Include="../../src/BastionMinePresentation.cs" Link="BastionMinePresentation.cs"/>
+    <Compile Include="../../src/BastionMineRules.cs" Link="BastionMineRules.cs"/>
+    <Compile Include="../../src/BastionMineSurfaceAttachment.cs" Link="BastionMineSurfaceAttachment.cs"/>
+  </ItemGroup>
+</Project>

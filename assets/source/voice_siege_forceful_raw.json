@@ -1,0 +1,20 @@
+{
+  "text": "Ha ha ha! Hahahahaha! Ha ha ha ha! Hahahahaha!",
+  "prompt": "An expressive adult woman with a clear natural mezzo-soprano voice, a slightly smoky lower register and bright resonant laughter in her middle register. She performs a real, wild, explosive maniacal laugh. Uncontrollable gleeful cackling with strong projection and a full open mouth. Laugh rapidly and continuously for four seconds, with the same energetic intensity and rhythm throughout. Short distinct ha-ha-ha pulses tumbling naturally into each other, without phrase pauses. This is delighted hysterical laughter, not grunting, shouting words, or sustaining a vowel. Start at full laughing force, stay there, finish with one emphatic laugh and stop abruptly. Clean dry studio recording. No quiet chuckles, slowing, sighing, gasping, moaning, music or effects.",
+  "seed": 920,
+  "settings": {
+    "non_streaming_mode": true,
+    "max_new_tokens": 84,
+    "temperature": 0.78,
+    "top_p": 0.95,
+    "repetition_penalty": 1.04
+  },
+  "rate": 24000,
+  "seconds": 6.64,
+  "engine": "Qwen3-TTS VoiceDesign",
+  "model": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+  "revision": "5ecdb67327fd37bb2e042aab12ff7391903235d3",
+  "license": "Apache-2.0",
+  "reference_recording": null,
+  "based_on": "Original strong female siege-laugh direction; new continuous performance, no reference audio or reused samples"
+}

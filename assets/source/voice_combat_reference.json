@@ -1,0 +1,14 @@
+{
+  "description": "The character own fictional AI-generated combat lines as a shared voice identity reference",
+  "sources": [
+    {
+      "file": "voice_mobile_raw.wav",
+      "sha256": "d8fe4c72fd7365ad88c7efc56a06b0ed9b9f39d9125d76aa39867b8558bf342b"
+    },
+    {
+      "file": "voice_aegis_raw.wav",
+      "sha256": "cc36a1fe123e1ae048b6bb119b80aee77f1032f354894d966adb45c28e9eb959"
+    }
+  ],
+  "pause_seconds": 0.08
+}

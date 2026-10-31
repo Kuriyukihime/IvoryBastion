@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType><TargetFramework>net10.0</TargetFramework><Nullable>disable</Nullable></PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../src/BastionUpgradeTree.cs" Link="BastionUpgradeTree.cs"/>
+    <Compile Include="../../src/BastionAbilityShield.cs" Link="BastionAbilityShield.cs"/>
+    <Compile Include="../../src/BastionDamageHook.cs" Link="BastionDamageHook.cs"/>
+    <Compile Include="../../src/BastionShieldDamageSite.cs" Link="BastionShieldDamageSite.cs"/>
+    <Compile Include="../../src/BastionShieldReserve.cs" Link="BastionShieldReserve.cs"/>
+    <Compile Include="../../src/BastionAegisReserve.cs" Link="BastionAegisReserve.cs"/>
+    <Compile Include="../../src/BastionDefenseRules.cs" Link="BastionDefenseRules.cs"/>
+    <Compile Include="../../src/BastionBalanceValues.cs" Link="BastionBalanceValues.cs"/>
+    <Compile Include="../../src/BastionRules.cs" Link="BastionRules.cs"/>
+    <Compile Include="../../src/BastionThrusterReserve.cs" Link="BastionThrusterReserve.cs"/>
+    <Compile Include="../../src/BastionRepair.cs" Link="BastionRepair.cs"/>
+    <Reference Include="Mono.Cecil"><HintPath>$(APPDATA)/Thunderstore Mod Manager/DataFolder/RiskOfRain2/profiles/My Profile/BepInEx/core/Mono.Cecil.dll</HintPath></Reference>
+    <Reference Include="MonoMod.Utils"><HintPath>$(APPDATA)/Thunderstore Mod Manager/DataFolder/RiskOfRain2/profiles/My Profile/BepInEx/core/MonoMod.Utils.dll</HintPath></Reference>
+  </ItemGroup>
+</Project>

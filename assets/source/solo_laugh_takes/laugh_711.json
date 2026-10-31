@@ -1,0 +1,23 @@
+{
+  "engine": "Qwen3-TTS VoiceDesign",
+  "model": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+  "revision": "5ecdb67327fd37bb2e042aab12ff7391903235d3",
+  "license": "Apache-2.0",
+  "seed": 711,
+  "text": "Ha ha ha! Hahaha! Ha ha ha ha! Hahaha!",
+  "prompt": "One adult woman, alone, with a clear bright feminine mezzo-soprano voice. She is a gleefully dangerous, highly advanced combat AI delighting in her overwhelming power. She laughs maniacally with open, full-voiced HA-HA laughter, sounding thrilled and wickedly amused. A confident, energetic, spontaneous laugh with natural human resonance and a smiling voice. Keep her laughter strong and continuous, rising into a louder, higher triumphant final burst. The performance ends at the height of her excitement. Exactly one solo female voice recorded close to the microphone in a dry quiet studio.",
+  "settings": {
+    "non_streaming_mode": true,
+    "max_new_tokens": 150,
+    "temperature": 0.78,
+    "top_p": 0.95,
+    "repetition_penalty": 1.04
+  },
+  "rate": 24000,
+  "seconds": 3.84,
+  "float_peak": 0.568175733089447,
+  "gain_before_pcm16": 1.0,
+  "reference_recording": null,
+  "generated_voice_streams": 1,
+  "added_voice_layers": 0
+}

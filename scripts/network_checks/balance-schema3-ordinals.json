@@ -1,0 +1,654 @@
+[
+  {
+    "name": "BaseHealth",
+    "ordinal": 0
+  },
+  {
+    "name": "HealthGrowth",
+    "ordinal": 1
+  },
+  {
+    "name": "BaseDamage",
+    "ordinal": 2
+  },
+  {
+    "name": "DamageGrowth",
+    "ordinal": 3
+  },
+  {
+    "name": "BaseRegen",
+    "ordinal": 4
+  },
+  {
+    "name": "RegenGrowth",
+    "ordinal": 5
+  },
+  {
+    "name": "BaseArmor",
+    "ordinal": 6
+  },
+  {
+    "name": "MoveSpeed",
+    "ordinal": 7
+  },
+  {
+    "name": "SprintSpeed",
+    "ordinal": 8
+  },
+  {
+    "name": "BaseAttackSpeed",
+    "ordinal": 9
+  },
+  {
+    "name": "BaseCrit",
+    "ordinal": 10
+  },
+  {
+    "name": "NeedleDamage",
+    "ordinal": 11
+  },
+  {
+    "name": "NeedleRate",
+    "ordinal": 12
+  },
+  {
+    "name": "NeedleRange",
+    "ordinal": 13
+  },
+  {
+    "name": "NeedleProc",
+    "ordinal": 14
+  },
+  {
+    "name": "NeedleAmmo",
+    "ordinal": 15
+  },
+  {
+    "name": "BoostSpeed",
+    "ordinal": 16
+  },
+  {
+    "name": "BoostFuel",
+    "ordinal": 17
+  },
+  {
+    "name": "BoostRefill",
+    "ordinal": 18
+  },
+  {
+    "name": "BoostRecovery",
+    "ordinal": 19
+  },
+  {
+    "name": "ShiftCooldown",
+    "ordinal": 20
+  },
+  {
+    "name": "ShiftDuration",
+    "ordinal": 21
+  },
+  {
+    "name": "ShiftAttackSpeed",
+    "ordinal": 22
+  },
+  {
+    "name": "ShiftMoveSpeed",
+    "ordinal": 23
+  },
+  {
+    "name": "ShiftRefillMultiplier",
+    "ordinal": 24
+  },
+  {
+    "name": "ShiftRestore",
+    "ordinal": 25
+  },
+  {
+    "name": "DeployDuration",
+    "ordinal": 26
+  },
+  {
+    "name": "PackDuration",
+    "ordinal": 27
+  },
+  {
+    "name": "SwitchCooldown",
+    "ordinal": 28
+  },
+  {
+    "name": "DeployHeight",
+    "ordinal": 29
+  },
+  {
+    "name": "PackRefillsShield",
+    "ordinal": 30
+  },
+  {
+    "name": "MobileShield",
+    "ordinal": 31
+  },
+  {
+    "name": "SiegeShield",
+    "ordinal": 32
+  },
+  {
+    "name": "MobileShieldDR",
+    "ordinal": 33
+  },
+  {
+    "name": "SiegeShieldDR",
+    "ordinal": 34
+  },
+  {
+    "name": "MobileShieldDelay",
+    "ordinal": 35
+  },
+  {
+    "name": "SiegeShieldDelay",
+    "ordinal": 36
+  },
+  {
+    "name": "MobileShieldRefill",
+    "ordinal": 37
+  },
+  {
+    "name": "SiegeShieldRefill",
+    "ordinal": 38
+  },
+  {
+    "name": "SiegeRepair",
+    "ordinal": 39
+  },
+  {
+    "name": "SiegeRepairDelay",
+    "ordinal": 40
+  },
+  {
+    "name": "MissileDamage",
+    "ordinal": 41
+  },
+  {
+    "name": "MissileRadius",
+    "ordinal": 42
+  },
+  {
+    "name": "MissileProc",
+    "ordinal": 43
+  },
+  {
+    "name": "HeavyDamage",
+    "ordinal": 44
+  },
+  {
+    "name": "HeavyRadius",
+    "ordinal": 45
+  },
+  {
+    "name": "HeavyProc",
+    "ordinal": 46
+  },
+  {
+    "name": "HeavyEvery",
+    "ordinal": 47
+  },
+  {
+    "name": "MissileRate",
+    "ordinal": 48
+  },
+  {
+    "name": "MissileRange",
+    "ordinal": 49
+  },
+  {
+    "name": "MissileCapacity",
+    "ordinal": 50
+  },
+  {
+    "name": "MissileStartingAmmo",
+    "ordinal": 51
+  },
+  {
+    "name": "SiegeReload",
+    "ordinal": 52
+  },
+  {
+    "name": "MobileReload",
+    "ordinal": 53
+  },
+  {
+    "name": "MissileSpeed",
+    "ordinal": 54
+  },
+  {
+    "name": "HeavySpeed",
+    "ordinal": 55
+  },
+  {
+    "name": "MissileLifetime",
+    "ordinal": 56
+  },
+  {
+    "name": "LaserDamage",
+    "ordinal": 57
+  },
+  {
+    "name": "LaserCooldown",
+    "ordinal": 58
+  },
+  {
+    "name": "LaserRange",
+    "ordinal": 59
+  },
+  {
+    "name": "LaserRadius",
+    "ordinal": 60
+  },
+  {
+    "name": "LaserProc",
+    "ordinal": 61
+  },
+  {
+    "name": "AegisCooldown",
+    "ordinal": 62
+  },
+  {
+    "name": "AegisDuration",
+    "ordinal": 63
+  },
+  {
+    "name": "AegisBarrier",
+    "ordinal": 64
+  },
+  {
+    "name": "AegisDR",
+    "ordinal": 65
+  },
+  {
+    "name": "AegisHealing",
+    "ordinal": 66
+  },
+  {
+    "name": "AegisReload",
+    "ordinal": 67
+  },
+  {
+    "name": "AegisGuardian",
+    "ordinal": 68
+  },
+  {
+    "name": "SkyfallCooldown",
+    "ordinal": 69
+  },
+  {
+    "name": "SkyfallCount",
+    "ordinal": 70
+  },
+  {
+    "name": "SkyfallDamage",
+    "ordinal": 71
+  },
+  {
+    "name": "SkyfallRadius",
+    "ordinal": 72
+  },
+  {
+    "name": "SkyfallRange",
+    "ordinal": 73
+  },
+  {
+    "name": "SkyfallProc",
+    "ordinal": 74
+  },
+  {
+    "name": "SkyfallSpacing",
+    "ordinal": 75
+  },
+  {
+    "name": "SkyfallCluster",
+    "ordinal": 76
+  },
+  {
+    "name": "IdleFabrication",
+    "ordinal": 77
+  },
+  {
+    "name": "CombatFabrication",
+    "ordinal": 78
+  },
+  {
+    "name": "KillReward",
+    "ordinal": 79
+  },
+  {
+    "name": "EliteReward",
+    "ordinal": 80
+  },
+  {
+    "name": "BossReward",
+    "ordinal": 81
+  },
+  {
+    "name": "RewardRange",
+    "ordinal": 82
+  },
+  {
+    "name": "AllyKillsReward",
+    "ordinal": 83
+  },
+  {
+    "name": "CostOne",
+    "ordinal": 84
+  },
+  {
+    "name": "CostTwo",
+    "ordinal": 85
+  },
+  {
+    "name": "CostThree",
+    "ordinal": 86
+  },
+  {
+    "name": "UpgradedCapacity",
+    "ordinal": 87
+  },
+  {
+    "name": "UpgradedReload",
+    "ordinal": 88
+  },
+  {
+    "name": "UpgradedHeavyEvery",
+    "ordinal": 89
+  },
+  {
+    "name": "UpgradedLaserDamage",
+    "ordinal": 90
+  },
+  {
+    "name": "UpgradedLaserCooldown",
+    "ordinal": 91
+  },
+  {
+    "name": "ShieldUpgradeOne",
+    "ordinal": 92
+  },
+  {
+    "name": "ShieldUpgradeTwo",
+    "ordinal": 93
+  },
+  {
+    "name": "UpgradedBarrier",
+    "ordinal": 94
+  },
+  {
+    "name": "UpgradedHealing",
+    "ordinal": 95
+  },
+  {
+    "name": "HardeningBonus",
+    "ordinal": 96
+  },
+  {
+    "name": "HardeningDR",
+    "ordinal": 97
+  },
+  {
+    "name": "RenewalRestore",
+    "ordinal": 98
+  },
+  {
+    "name": "RenewalHealing",
+    "ordinal": 99
+  },
+  {
+    "name": "UpgradeFlight",
+    "ordinal": 100
+  },
+  {
+    "name": "UpgradedFuel",
+    "ordinal": 101
+  },
+  {
+    "name": "UpgradedShiftDuration",
+    "ordinal": 102
+  },
+  {
+    "name": "RicochetDamage",
+    "ordinal": 103
+  },
+  {
+    "name": "RicochetRange",
+    "ordinal": 104
+  },
+  {
+    "name": "RicochetProc",
+    "ordinal": 105
+  },
+  {
+    "name": "BaseSlots",
+    "ordinal": 106
+  },
+  {
+    "name": "SecondSlots",
+    "ordinal": 107
+  },
+  {
+    "name": "ThirdSlots",
+    "ordinal": 108
+  },
+  {
+    "name": "FirstDroneDelay",
+    "ordinal": 109
+  },
+  {
+    "name": "DroneRebuild",
+    "ordinal": 110
+  },
+  {
+    "name": "DroneProc",
+    "ordinal": 111
+  },
+  {
+    "name": "BulwarkHealth",
+    "ordinal": 112
+  },
+  {
+    "name": "BulwarkArmor",
+    "ordinal": 113
+  },
+  {
+    "name": "BulwarkDamage",
+    "ordinal": 114
+  },
+  {
+    "name": "BulwarkInterval",
+    "ordinal": 115
+  },
+  {
+    "name": "BulwarkRange",
+    "ordinal": 116
+  },
+  {
+    "name": "BulwarkPulse",
+    "ordinal": 117
+  },
+  {
+    "name": "BulwarkPullRadius",
+    "ordinal": 118
+  },
+  {
+    "name": "BulwarkPullForce",
+    "ordinal": 119
+  },
+  {
+    "name": "BulwarkStun",
+    "ordinal": 120
+  },
+  {
+    "name": "BulwarkTauntRange",
+    "ordinal": 121
+  },
+  {
+    "name": "BulwarkTauntDuration",
+    "ordinal": 122
+  },
+  {
+    "name": "GunnerHealth",
+    "ordinal": 123
+  },
+  {
+    "name": "GunnerArmor",
+    "ordinal": 124
+  },
+  {
+    "name": "GunnerDamage",
+    "ordinal": 125
+  },
+  {
+    "name": "GunnerInterval",
+    "ordinal": 126
+  },
+  {
+    "name": "GunnerRange",
+    "ordinal": 127
+  },
+  {
+    "name": "InterceptorHealth",
+    "ordinal": 128
+  },
+  {
+    "name": "InterceptorArmor",
+    "ordinal": 129
+  },
+  {
+    "name": "InterceptorRange",
+    "ordinal": 130
+  },
+  {
+    "name": "InterceptorCooldown",
+    "ordinal": 131
+  },
+  {
+    "name": "RepairHealth",
+    "ordinal": 132
+  },
+  {
+    "name": "RepairArmor",
+    "ordinal": 133
+  },
+  {
+    "name": "RepairRange",
+    "ordinal": 134
+  },
+  {
+    "name": "RepairHealing",
+    "ordinal": 135
+  },
+  {
+    "name": "RepairInterval",
+    "ordinal": 136
+  },
+  {
+    "name": "WingburstCooldown",
+    "ordinal": 137
+  },
+  {
+    "name": "WingburstDistance",
+    "ordinal": 138
+  },
+  {
+    "name": "WingburstDuration",
+    "ordinal": 139
+  },
+  {
+    "name": "WingburstWindup",
+    "ordinal": 140
+  },
+  {
+    "name": "WingburstShots",
+    "ordinal": 141
+  },
+  {
+    "name": "WingburstDamage",
+    "ordinal": 142
+  },
+  {
+    "name": "WingburstRange",
+    "ordinal": 143
+  },
+  {
+    "name": "WingburstRadius",
+    "ordinal": 144
+  },
+  {
+    "name": "WingburstProc",
+    "ordinal": 145
+  },
+  {
+    "name": "MineCooldown",
+    "ordinal": 146
+  },
+  {
+    "name": "MineLaunchInterval",
+    "ordinal": 147
+  },
+  {
+    "name": "MineLifetime",
+    "ordinal": 148
+  },
+  {
+    "name": "MineCount",
+    "ordinal": 149
+  },
+  {
+    "name": "MineDamage",
+    "ordinal": 150
+  },
+  {
+    "name": "MineTriggerRange",
+    "ordinal": 151
+  },
+  {
+    "name": "MineBlastRadius",
+    "ordinal": 152
+  },
+  {
+    "name": "MineSlowDuration",
+    "ordinal": 153
+  },
+  {
+    "name": "MineDeployRadius",
+    "ordinal": 154
+  },
+  {
+    "name": "MineProc",
+    "ordinal": 155
+  },
+  {
+    "name": "MineFuse",
+    "ordinal": 156
+  },
+  {
+    "name": "MineWalkSpeed",
+    "ordinal": 157
+  },
+  {
+    "name": "MineWalkDistance",
+    "ordinal": 158
+  },
+  {
+    "name": "MineAirTime",
+    "ordinal": 159
+  },
+  {
+    "name": "MineLeapRange",
+    "ordinal": 160
+  },
+  {
+    "name": "MineLeapTime",
+    "ordinal": 161
+  },
+  {
+    "name": "MineChainBonus",
+    "ordinal": 162
+  }
+]

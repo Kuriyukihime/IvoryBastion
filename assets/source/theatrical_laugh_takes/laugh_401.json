@@ -1,0 +1,22 @@
+{
+  "engine": "Qwen3-TTS VoiceDesign",
+  "model": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+  "revision": "5ecdb67327fd37bb2e042aab12ff7391903235d3",
+  "license": "Apache-2.0",
+  "seed": 401,
+  "language": "English",
+  "text": "Ahahahahaha! Ahahahahahahaha!",
+  "prompt": "A powerful adult female soprano portraying a gleefully unhinged advanced combat AI. Bright high feminine register with a clear ringing resonant voice and confident precision. She throws her head back and laughs loudly with her mouth wide open: big voiced AH-HA-HA bursts, projected from the diaphragm like a theatrical anime villain celebrating an overwhelming victory. Every laugh has a full ringing vowel, exuberant and fierce. Continuous real maniacal laughter. Start with a strong delighted laugh, grow increasingly wild, higher and louder, and finish at the strongest point of a triumphant laughing crescendo. Her joyful, dangerous laughter fills the room for about five seconds. A clean close studio recording of just the female voice, dry and undistorted.",
+  "settings": {
+    "non_streaming_mode": true,
+    "max_new_tokens": 140,
+    "temperature": 0.85,
+    "top_p": 0.95,
+    "repetition_penalty": 1.02
+  },
+  "rate": 24000,
+  "seconds": 5.04,
+  "float_peak": 0.6814641356468201,
+  "gain_before_pcm16": 1.0,
+  "reference_recording": null
+}

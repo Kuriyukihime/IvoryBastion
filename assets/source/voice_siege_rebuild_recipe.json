@@ -1,0 +1,28 @@
+{
+  "mode": "performed_ai_crescendo",
+  "raw_source": "licensed_voice/700964.wav",
+  "source_sha256": "3004bd399bbdc49c9605a9a5b4bca9fcda9973eca91ebb52c4ef76f70542e750",
+  "source_metadata": "licensed_voice/700964.json",
+  "source_interval": [
+    0.06,
+    4.78
+  ],
+  "register_lift_semitones": 2.0,
+  "crescendo_db": [
+    [
+      0,
+      -2
+    ],
+    [
+      0.5,
+      -1.4
+    ],
+    [
+      1,
+      0
+    ]
+  ],
+  "reflections": [],
+  "edge_seconds": 0.004,
+  "notes": "New human-performed maniacal laughter source under CC0. Preserve one continuous passage and its natural build in intensity. A fixed two-semitone playback lift brightens the register and brings the duration near four seconds. Use a single dry voice with no added delayed copies, chorus, doubling or reverb; preserve the accepted performance and pitch. Cut after the strongest burst, before the following quieter passage. No original chuckle source, generated replacement take, phrase loops or individual-syllable edits are used."
+}

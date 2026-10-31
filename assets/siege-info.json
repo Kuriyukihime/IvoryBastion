@@ -1,0 +1,61 @@
+{
+  "format": "BAST3",
+  "authoring": "scripts/seraph_hybrid.py",
+  "bones": 108,
+  "lods": [
+    {
+      "lod": 0,
+      "vertices": 213677,
+      "triangles": 208983
+    },
+    {
+      "lod": 1,
+      "vertices": 102302,
+      "triangles": 80239
+    },
+    {
+      "lod": 2,
+      "vertices": 59058,
+      "triangles": 36249
+    }
+  ],
+  "bounds": [
+    [
+      -2.2258,
+      0.007874999999999993,
+      -2.28143
+    ],
+    [
+      2.2258,
+      2.6387514653461155,
+      2.6366
+    ]
+  ],
+  "texture": [
+    4094,
+    4096
+  ],
+  "source": "Seraph reconstruction-fitted rig with authored ceramic armor, closed mechanical undersuit and articulated engineering assemblies",
+  "shell_authoring": "scripts/seraph_premium.py",
+  "optimization": {
+    "authoring": "scripts/optimize_siege_mesh.py",
+    "version": "1.4.0",
+    "sourceSha256": "c411d5f8eb357cd9578e6b1c1ee6d3f8ebeb77feb54c7189c716b75cc1ddc722",
+    "rigHeaderUnchanged": true,
+    "texturesUnchanged": true,
+    "originalLods": [
+      {
+        "vertices": 409864,
+        "triangles": 452835
+      },
+      {
+        "vertices": 172709,
+        "triangles": 159237
+      },
+      {
+        "vertices": 89871,
+        "triangles": 61535
+      }
+    ]
+  }
+}

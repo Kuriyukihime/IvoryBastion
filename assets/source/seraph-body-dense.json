@@ -1,0 +1,24 @@
+{
+  "vertices": 299182,
+  "triangles": 598344,
+  "bounds": [
+    [
+      -0.5221237540245056,
+      -0.999187707901001,
+      -0.21735364198684692
+    ],
+    [
+      0.518828809261322,
+      0.9952825903892517,
+      0.169090136885643
+    ]
+  ],
+  "engine": "Hunyuan3D-2mv",
+  "resolution": 512,
+  "steps": 40,
+  "seed": 3117,
+  "source_images": [
+    "seraph-body-front.png",
+    "seraph-body-back.png"
+  ]
+}

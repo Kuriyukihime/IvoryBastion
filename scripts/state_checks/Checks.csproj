@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType><TargetFramework>net10.0</TargetFramework><Nullable>disable</Nullable><GameManaged>X:/SteamLibrary/steamapps/common/Risk of Rain 2/Risk of Rain 2_Data/Managed</GameManaged></PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../src/BastionStateType.cs" Link="BastionStateType.cs"/>
+    <Reference Include="$(GameManaged)/RoR2.dll"/>
+    <Reference Include="$(GameManaged)/UnityEngine*.dll"/>
+    <Reference Include="$(GameManaged)/HG*.dll"/>
+    <Reference Include="$(GameManaged)/com.unity.multiplayer-hlapi.Runtime.dll"/>
+    <Reference Include="Mono.Cecil"><HintPath>$(APPDATA)/Thunderstore Mod Manager/DataFolder/RiskOfRain2/profiles/My Profile/BepInEx/core/Mono.Cecil.dll</HintPath></Reference>
+  </ItemGroup>
+</Project>

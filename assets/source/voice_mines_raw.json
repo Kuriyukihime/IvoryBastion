@@ -1,0 +1,19 @@
+{
+  "text": "Defensive charges deployed. Watch your step.",
+  "prompt": "An adult woman with a clear smooth mezzo-soprano speaking voice, warm natural human resonance, a slightly smoky lower register, crisp precise American English and a sly confident smile. She portrays a highly advanced feminine artificial intelligence in a sleek combat fortress. An expressive human actress, articulate and controlled, with real breath and nuanced pitch. Clean close studio microphone, no background music, no sound effects, no robot filter. A crisp, confident combat announcement. Emphasize DEFENSIVE CHARGES, then a sly dangerous smile on WATCH YOUR STEP. Same poised female AI voice, clear natural flow and precise words.",
+  "seed": 832,
+  "settings": {
+    "non_streaming_mode": true,
+    "max_new_tokens": 160,
+    "temperature": 0.78,
+    "top_p": 0.95,
+    "repetition_penalty": 1.04
+  },
+  "rate": 24000,
+  "seconds": 3.04,
+  "engine": "Qwen3-TTS VoiceDesign",
+  "model": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+  "revision": "5ecdb67327fd37bb2e042aab12ff7391903235d3",
+  "license": "Apache-2.0",
+  "reference_recording": null
+}

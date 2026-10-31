@@ -1,0 +1,50 @@
+# Generated from package/manifest.json by scripts/sync_thunderstore_config.ps1.
+# The publishing credential is supplied separately through TCLI_AUTH_TOKEN.
+[config]
+schemaVersion = "0.0.1"
+
+[package]
+namespace = "Kuriyukihime"
+name = "IvoryBastion"
+versionNumber = "1.5.0"
+description = "A flying survivor with a missile fortress, specialized drones and upgrades that last the run."
+websiteUrl = "https://thunderstore.io/c/riskofrain2/p/Kuriyukihime/IvoryBastion/wiki/"
+containsNsfwContent = false
+
+[package.dependencies]
+"bbepis-BepInExPack" = "5.4.2120"
+"RiskofThunder-RoR2BepInExPack" = "1.46.0"
+"RiskofThunder-HookGenPatcher" = "1.2.9"
+"RiskofThunder-R2API_Core" = "5.3.0"
+"RiskofThunder-R2API_ContentManagement" = "1.1.0"
+"RiskofThunder-R2API_Prefab" = "1.1.1"
+"RiskofThunder-R2API_Language" = "1.1.0"
+"RiskofThunder-R2API_RecalculateStats" = "1.7.0"
+"RiskofThunder-R2API_Networking" = "1.0.4"
+"Rune580-Risk_Of_Options" = "2.8.6"
+
+[build]
+icon = "package/icon.png"
+readme = "package/README.md"
+outdir = ".build/tcli-packages"
+
+[[build.copy]]
+source = "bin/Release/netstandard2.1/IvoryBastion.dll"
+target = "BepInEx/plugins/IvoryBastion/IvoryBastion.dll"
+
+[[build.copy]]
+source = "package/CHANGELOG.md"
+target = "CHANGELOG.md"
+
+[[build.copy]]
+source = "package/LICENSE"
+target = "LICENSE"
+
+[publish]
+repository = "https://thunderstore.io"
+communities = ["riskofrain2"]
+
+# Preserve the categories already selected on the published listing.
+[publish.categories]
+riskofrain2 = ["player-characters", "ai-generated"]
+

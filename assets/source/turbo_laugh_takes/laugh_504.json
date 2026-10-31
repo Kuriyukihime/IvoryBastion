@@ -1,0 +1,20 @@
+{
+  "engine": "Chatterbox Turbo",
+  "model": "ResembleAI/chatterbox-turbo",
+  "license": "MIT",
+  "seed": 504,
+  "text": "You thought you could win? [laugh] [laugh] [laugh]!",
+  "settings": {
+    "temperature": 0.85,
+    "top_p": 0.95,
+    "repetition_penalty": 1.1
+  },
+  "rate": 24000,
+  "seconds": 3.12,
+  "reference_recording": "assets\\source\\voice_mobile_reference.wav",
+  "reference_sha256": "3ff0a6f7de90436d2de22f51ea3e82204c40ef19e7d29bbd0301e55ca0063282",
+  "float_peak": 0.24640074372291565,
+  "gain_before_pcm16": 1.0,
+  "watermark": "Original Chatterbox Perth watermark retained",
+  "revision": "749d1c1a46eb10492095d68fbcf55691ccf137cd"
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "file": "mechanical1.wav",
+    "download_url": "https://opengameart.org/sites/default/files/mechanical1.wav",
+    "bytes": 80940,
+    "sha256": "de520ad93fa9f4df357b31a8fdef7778d8df994574c861f9337d5241fee5db33"
+  },
+  {
+    "file": "mechanical2.wav",
+    "download_url": "https://opengameart.org/sites/default/files/mechanical2.wav",
+    "bytes": 53292,
+    "sha256": "27b4b6c3517c90d635295fca48fccd747950f869d680c871662f26038c3665ef"
+  },
+  {
+    "file": "clank1.wav",
+    "download_url": "https://opengameart.org/sites/default/files/clank1.wav",
+    "bytes": 59436,
+    "sha256": "899a46a8423fa0ca349b3c70a07a422d1eaa3a58695ce6facfbae074dd70226f"
+  },
+  {
+    "file": "lightclunk1.wav",
+    "download_url": "https://opengameart.org/sites/default/files/lightclunk1.wav",
+    "bytes": 32812,
+    "sha256": "d5a2aa8764c02924f6ed6fbaad0c650ab2d57ec57a626cee9e6645f941dbc8fa"
+  },
+  {
+    "file": "lightclunk2.wav",
+    "download_url": "https://opengameart.org/sites/default/files/lightclunk2.wav",
+    "bytes": 26668,
+    "sha256": "987be837a5941ded9a81572c319b9bf8f57d9f89741a5781fc7104adc87d60f5"
+  },
+  {
+    "file": "hydraulic_door_hq.mp3",
+    "download_url": "https://cdn.freesound.org/previews/83/83887_1281618-hq.mp3",
+    "bytes": 93984,
+    "sha256": "1ab207355533ea785c5e9e7fea559bda413ff6e4c74aa16dd6a81a32edf75113"
+  },
+  {
+    "file": "hydraulic_machine_hq.mp3",
+    "download_url": "https://cdn.freesound.org/previews/871/871231_71257-hq.mp3",
+    "bytes": 52704,
+    "sha256": "7946592311dd0b2444f8725df144c0ba0f6c8a6eccf33c2e80e7b3291d93c86f"
+  },
+  {
+    "file": "oga_license_source.html",
+    "download_url": "https://opengameart.org/content/mechanical-sounds",
+    "bytes": 27769,
+    "sha256": "6772bc3a4625fd2d0570f7115dee171ecab82b3741ce8bdcd4958f1d33a840a0"
+  },
+  {
+    "file": "CC0_1.0.html",
+    "download_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "bytes": 30248,
+    "sha256": "abb4d48fc8b85de52b377dd105532c6c549f515d492a8e1712bc99e7316a1f12"
+  }
+]

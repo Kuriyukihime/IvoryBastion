@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType><TargetFramework>net10.0</TargetFramework><EnableDefaultCompileItems>false</EnableDefaultCompileItems></PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs"/>
+    <Compile Include="../../src/BastionBalanceValues.cs" Link="BastionBalanceValues.cs"/>
+    <Compile Include="../../src/BastionRules.cs" Link="BastionRules.cs"/>
+    <Compile Include="../../src/BastionDefenseRules.cs" Link="BastionDefenseRules.cs"/>
+    <Compile Include="../../src/BastionThrusterReserve.cs" Link="BastionThrusterReserve.cs"/>
+    <Compile Include="../../src/BastionUpgradeTree.cs" Link="BastionUpgradeTree.cs"/>
+    <Compile Include="../../src/BastionUtilityUpgrades.cs" Link="BastionUtilityUpgrades.cs"/>
+    <Compile Include="../../src/BastionUpgradeText.cs" Link="BastionUpgradeText.cs"/>
+  </ItemGroup>
+</Project>

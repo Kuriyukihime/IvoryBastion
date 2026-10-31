@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType><TargetFramework>net10.0</TargetFramework><EnableDefaultCompileItems>false</EnableDefaultCompileItems><Nullable>disable</Nullable><NoWarn>CS0649</NoWarn></PropertyGroup>
+  <ItemGroup>
+    <Compile Include="UpgradeChecks.cs"/><Compile Include="EngineeringPauseChecks.cs"/>
+    <Compile Include="../../src/BastionEngineeringPause.cs" Link="BastionEngineeringPause.cs"/><Compile Include="EngineeringLayoutChecks.cs"/>
+    <Compile Include="../../src/BastionHud.Engineering.cs" Link="BastionHud.Engineering.cs"/>
+    <Compile Include="../../src/BastionUnitRules.cs" Link="BastionUnitRules.cs"/>
+    <Compile Include="../../src/BastionRules.cs" Link="BastionRules.cs"/>
+    <Compile Include="../../src/BastionThrusterReserve.cs" Link="BastionThrusterReserve.cs"/>
+    <Compile Include="../../src/BastionDefenseRules.cs" Link="BastionDefenseRules.cs"/>
+    <Compile Include="../../src/BastionShieldReserve.cs" Link="BastionShieldReserve.cs"/>
+    <Compile Include="../../src/BastionAegisReserve.cs" Link="BastionAegisReserve.cs"/>
+    <Compile Include="../../src/BastionUpgradeEffects.cs" Link="BastionUpgradeEffects.cs"/>
+    <Compile Include="../../src/BastionUpgradeSync.cs" Link="BastionUpgradeSync.cs"/>
+    <Compile Include="../../src/BastionUpgradeText.cs" Link="BastionUpgradeText.cs"/>
+    <Compile Include="../../src/BastionUpgradeTree.cs" Link="BastionUpgradeTree.cs"/>
+    <Compile Include="Stubs.cs"/><Compile Include="../../src/BastionUtilityUpgrades.cs" Link="BastionUtilityUpgrades.cs"/>
+    <Compile Include="Program.cs"/>
+    <Compile Include="../../src/BastionMineChainGeometry.cs" Link="BastionMineChainGeometry.cs"/>
+    <Compile Include="../../src/BastionMineRules.cs" Link="BastionMineRules.cs"/>
+    <Compile Include="../../src/BastionMinePresentation.cs" Link="BastionMinePresentation.cs"/>
+    <Compile Include="../../src/BastionSpiderMine.cs" Link="BastionSpiderMine.cs"/>
+    <Compile Include="../../src/BastionDialogueGate.cs" Link="BastionDialogueGate.cs"/>
+    <Compile Include="../../src/BastionUtilityRules.cs" Link="BastionUtilityRules.cs"/>
+    <Compile Include="../../src/BastionUtility.cs" Link="BastionUtility.cs"/>
+    <Compile Include="../../src/BastionUtilityCombat.cs" Link="BastionUtilityCombat.cs"/>
+    <Compile Include="../../src/BastionBatteryTargeting.cs" Link="BastionBatteryTargeting.cs"/>
+    <Compile Include="../../src/BastionNeedleRules.cs" Link="BastionNeedleRules.cs"/>
+    <Compile Include="../../src/BastionMicroSplashReservation.cs" Link="BastionMicroSplashReservation.cs"/>
+    <Compile Include="../../src/BastionRushTargetPlan.cs" Link="BastionRushTargetPlan.cs"/>
+    <Compile Include="../../src/BastionUtilityStatus.cs" Link="BastionUtilityStatus.cs"/>
+    <Compile Include="../../src/BastionBalanceValues.cs" Link="BastionBalanceValues.cs"/>
+    <Compile Include="../../src/BastionDisplayRules.cs" Link="BastionDisplayRules.cs"/>
+    <Reference Include="Mono.Cecil"><HintPath>$(APPDATA)/Thunderstore Mod Manager/DataFolder/RiskOfRain2/profiles/Papi and Ruby/BepInEx/core/Mono.Cecil.dll</HintPath></Reference>
+  </ItemGroup>
+</Project>
