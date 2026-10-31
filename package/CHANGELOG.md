@@ -1,3 +1,10 @@
+# 1.6.0
+
+- **Ivory Bastion has moved to GitHub.** This is the last update posted on Thunderstore. New versions will be at github.com/Kuriyukihime/IvoryBastion/releases.
+  - To get notified, click **Watch → Custom → Releases** on that page.
+  - To install a new version, import its ZIP in your mod manager (r2modman: Settings → Import local mod).
+- No gameplay changes.
+
 # 1.5.0
 
 - **Missile Battery:** manual aim is far more forgiving. Missiles now lock onto the enemy closest to your crosshair within **15 degrees**, instead of requiring the crosshair to sit exactly on its body. With no enemy that close, they still target the nearest reachable enemy.

@@ -1,5 +1,7 @@
 # Ivory Bastion
 
+> **Ivory Bastion has moved to GitHub.** 1.6.0 is the last update posted on Thunderstore. New versions will be at https://github.com/Kuriyukihime/IvoryBastion/releases. To get notified, click **Watch → Custom → Releases** on that page. To install a new version, import its ZIP in your mod manager (r2modman: Settings → Import local mod).
+
 A flying survivor who transforms into an immobile missile fortress. Harass enemies from the air, replenish ammunition, then deploy a mechanical throne armed with lasers, drones and sky-diving warheads.
 
 White armor, black panels and blue accents accompany animated transformations, mechanical audio, AI dialogue and a resource HUD.

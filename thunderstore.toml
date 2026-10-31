@@ -6,9 +6,9 @@ schemaVersion = "0.0.1"
 [package]
 namespace = "Kuriyukihime"
 name = "IvoryBastion"
-versionNumber = "1.5.0"
-description = "A flying survivor with a missile fortress, specialized drones and upgrades that last the run."
-websiteUrl = "https://thunderstore.io/c/riskofrain2/p/Kuriyukihime/IvoryBastion/wiki/"
+versionNumber = "1.6.0"
+description = "Moved to GitHub: future updates at github.com/Kuriyukihime/IvoryBastion. A flying survivor with a missile fortress, specialized drones and upgrades that last the run."
+websiteUrl = "https://github.com/Kuriyukihime/IvoryBastion"
 containsNsfwContent = false
 
 [package.dependencies]

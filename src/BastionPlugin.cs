@@ -20,7 +20,7 @@ namespace IvoryBastion
     [R2API.Utils.NetworkCompatibility(R2API.Utils.CompatibilityLevel.EveryoneMustHaveMod,R2API.Utils.VersionStrictness.EveryoneNeedSameModVersion)]
     public sealed class BastionPlugin:BaseUnityPlugin
     {
-        public const string Guid="com.yuiki.ivorybastion",Version="1.5.0";
+        public const string Guid="com.yuiki.ivorybastion",Version="1.6.0";
         internal static ManualLogSource Log;
         internal static ConfigEntry<bool> EnableAudio;
         internal static ConfigEntry<float> AudioVolume;

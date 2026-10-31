@@ -1,8 +1,8 @@
 {
   "name": "IvoryBastion",
-  "version_number": "1.5.0",
-  "website_url": "https://thunderstore.io/c/riskofrain2/p/Kuriyukihime/IvoryBastion/wiki/",
-  "description": "A flying survivor with a missile fortress, specialized drones and upgrades that last the run.",
+  "version_number": "1.6.0",
+  "website_url": "https://github.com/Kuriyukihime/IvoryBastion",
+  "description": "Moved to GitHub: future updates at github.com/Kuriyukihime/IvoryBastion. A flying survivor with a missile fortress, specialized drones and upgrades that last the run.",
   "dependencies": [
     "bbepis-BepInExPack-5.4.2120",
     "RiskofThunder-RoR2BepInExPack-1.46.0",
